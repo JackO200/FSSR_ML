@@ -1,5 +1,5 @@
 ## This file contains the script to run the FSSRbeta model on VIDEO
-
+# pip install ultralytics  if you get an error on ultralytics
 # Install Packages
 from ultralytics import YOLO
 import cv2
@@ -9,7 +9,7 @@ from hub_sdk import HUBClient
 model = YOLO('/Users/jackorebaugh/Documents/Code/FSSR_ML/FSSRbeta.pt')
 
 # Capture native webcam
-cap = cv2.VideoCapture("Drone Flying Over Forest.mp4")
+cap = cv2.VideoCapture("/Users/jackorebaugh/Documents/Code/FSSR_ML/Data/Drone Flying Over Forest.mp4")
 
 # While loop for capturing and running specified YOLO model on our webcam
 while cap.isOpened():
