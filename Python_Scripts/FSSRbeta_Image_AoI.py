@@ -15,7 +15,7 @@ model = YOLO('/Users/jackorebaugh/Documents/Code/FSSR_ML/FSSRbeta.pt')
 
 
 # Run inference on test data
-results = model(source="GoogleEarth_test.png", show=True, save=True)
+results = model(source="/Users/jackorebaugh/Documents/Code/FSSR_ML/Data/GoogleEarth_Test.png", show=True, save=True)
 
 # Way to close the window
 cv2.startWindowThread()
