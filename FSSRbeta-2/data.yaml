@@ -1,0 +1,12 @@
+names:
+- Area of Interest
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: fssrbeta
+  url: https://universe.roboflow.com/jackthesciguy/fssrbeta/dataset/2
+  version: 2
+  workspace: jackthesciguy
+test: /Users/jackorebaugh/Documents/test/FSSRbeta-2/test/images
+train: /Users/jackorebaugh/Documents/test/FSSRbeta-2/train/images
+val: /Users/jackorebaugh/Documents/test/FSSRbeta-2/valid/images
