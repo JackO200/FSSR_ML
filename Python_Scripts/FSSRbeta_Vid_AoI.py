@@ -6,7 +6,7 @@ import cv2
 from hub_sdk import HUBClient
 
 # Load the YOLOv8 pre-trained model
-model = YOLO('FSSRbeta.pt')
+model = YOLO('/Users/jackorebaugh/Documents/Code/FSSR_ML/FSSRbeta.pt')
 
 # Capture native webcam
 cap = cv2.VideoCapture("Drone Flying Over Forest.mp4")
